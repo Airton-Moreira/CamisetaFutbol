@@ -263,14 +263,26 @@ ul{ list-style:none; margin:0; padding:0; }
 /* ===========================================================
    TOOLBAR: BUSCADOR + FILTROS
 =========================================================== */
-.toolbar{
+
+
+
+
+
+.toolbar {
   padding: 34px 0;
   border-bottom: 1px solid var(--border);
   position: sticky;
   top: 65px;
-  background: rgba(255,255,255,0.96);
+  background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(8px);
   z-index: 40;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.toolbar.toolbar-hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+  pointer-events: none;
 }
 .toolbar-inner{
   max-width: var(--container);
@@ -367,7 +379,7 @@ ul{ list-style:none; margin:0; padding:0; }
 =========================================================== */
 .product-grid{
   display:grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 26px;
 }
 .product-grid-secondary{ grid-template-columns: repeat(3, 1fr); }

@@ -362,3 +362,5 @@ document.getElementById("footerYear").textContent = new Date().getFullYear();
 setGeneralWhatsappLinks();
 renderDefaultView();
 updateView();
+
+

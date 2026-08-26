@@ -1,6 +1,14 @@
 // Datos de productos — modificá esta lista para actualizar el catálogo.
 // Cada producto necesita: id, name, category, team, season, price, status, fewLeft, sizes, images, description
 // status válidos: 'available' | 'on-order' | 'out-of-stock'
+/*
+Ejemplo de varias 
+
+const PRODUCTS = [
+     images: ["Imagenes/Argentina Suplente 1994.jpg", "assets/images/p2-back.svg", "assets/images/p2-crest.svg", "assets/images/p2-fabric.svg"],
+*/
+
+
 const PRODUCTS = [
   {
     id: 1,
@@ -12,7 +20,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["assets/images/p1-front.svg", "assets/images/p1-back.svg", "assets/images/p1-crest.svg", "assets/images/p1-fabric.svg"],
+    images: ["Imagenes/Argentina Titular 2006.jpg"],
     description: "Camiseta réplica inspirada en la edición utilizada por la Selección Argentina durante el Mundial 2006."
   },
   {
@@ -25,7 +33,7 @@ const PRODUCTS = [
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["assets/images/p2-front.svg", "assets/images/p2-back.svg", "assets/images/p2-crest.svg", "assets/images/p2-fabric.svg"],
+    images: ["Imagenes/Argentina Suplente 1994.jpg"],
     description: "Modelo inspirado en la alternativa argentina de Estados Unidos '94. Edición retro réplica."
   },
   {
@@ -38,7 +46,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p3-front.svg", "assets/images/p3-back.svg", "assets/images/p3-crest.svg", "assets/images/p3-fabric.svg"],
+    images: ["Imagenes/Argentina Titular 1986.jpg"],
     description: "Réplica de la camiseta con la que Argentina se consagró campeona del mundo en México '86."
   },
   {
@@ -51,7 +59,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL", "XXL"],
-    images: ["assets/images/p4-front.svg", "assets/images/p4-back.svg", "assets/images/p4-crest.svg", "assets/images/p4-fabric.svg"],
+    images: ["Imagenes/Argentina Titular Actual.jpg"],
     description: "Camiseta réplica del modelo titular vigente de la Selección Argentina, con las tres estrellas."
   },
   {
@@ -64,7 +72,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["M", "L", "XL"],
-    images: ["assets/images/p5-front.svg", "assets/images/p5-back.svg", "assets/images/p5-crest.svg", "assets/images/p5-fabric.svg"],
+    images: ["Imagenes/Argentina Suplente Actual.jpg"],
     description: "Versión alternativa réplica del modelo actual de la Albiceleste."
   },
   {
@@ -77,7 +85,7 @@ const PRODUCTS = [
     status: "out-of-stock",
     fewLeft: false,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p6-front.svg", "assets/images/p6-back.svg", "assets/images/p6-crest.svg", "assets/images/p6-fabric.svg"],
+    images: ["Imagenes/Camiseta Argentina Titular 3 estrellas.jpg"],
     description: "Edición especial réplica utilizada durante la conquista de Qatar 2022."
   },
   {
@@ -90,7 +98,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["assets/images/p7-front.svg", "assets/images/p7-back.svg", "assets/images/p7-crest.svg", "assets/images/p7-fabric.svg"],
+    images: ["Imagenes/Camiseta titular Noruega.jpg"],
     description: "Camiseta réplica de la selección noruega, modelo actual."
   },
   {
@@ -103,7 +111,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["assets/images/p8-front.svg", "assets/images/p8-back.svg", "assets/images/p8-crest.svg", "assets/images/p8-fabric.svg"],
+    images: ["Imagenes/Camiseta AC Milan.jpg"],
     description: "Réplica del modelo titular del Milan, con las clásicas rayas rojinegras."
   },
   {
@@ -111,12 +119,12 @@ const PRODUCTS = [
     name: "Real Madrid Titular",
     category: "variedad",
     team: "Real Madrid",
-    season: "2023",
+    season: "2021",
     price: 63000,
     status: "on-order",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["assets/images/p9-front.svg", "assets/images/p9-back.svg", "assets/images/p9-crest.svg", "assets/images/p9-fabric.svg"],
+    images: ["Imagenes/Real Madrid Titular 2022.jpg"],
     description: "Camiseta réplica blanca del Real Madrid, modelo actual."
   },
   {
