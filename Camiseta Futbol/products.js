@@ -20,7 +20,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["Imagenes/Argentina Titular 2006.jpg"],
+    images: ["Imagenes/Argentina Titular 2006.jpg", "Imagenes/Camiseta Argentina Titular 2006 2.jpg"],
     description: "Camiseta réplica inspirada en la edición utilizada por la Selección Argentina durante el Mundial 2006."
   },
   {
@@ -33,7 +33,7 @@ const PRODUCTS = [
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["Imagenes/Argentina Suplente 1994.jpg"],
+    images: ["Imagenes/Argentina Suplente 1994.jpg", "Imagenes/Argentina Suplente 1994 2.jpg"],
     description: "Modelo inspirado en la alternativa argentina de Estados Unidos '94. Edición retro réplica."
   },
   {
@@ -72,7 +72,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["M", "L", "XL"],
-    images: ["Imagenes/Argentina Suplente Actual.jpg"],
+    images: ["Imagenes/Argentina Suplente Actual.jpg", "Imagenes/Argentina Suplente Actual 2.jpg"],
     description: "Versión alternativa réplica del modelo actual de la Albiceleste."
   },
   {
@@ -137,7 +137,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p10-front.svg", "assets/images/p10-back.svg", "assets/images/p10-crest.svg", "assets/images/p10-fabric.svg"],
+    images: ["Imagenes/Barcelona Titular 2023.jpg"],
     description: "Réplica del histórico blaugrana en su versión titular."
   },
   {
@@ -150,7 +150,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["assets/images/p11-front.svg", "assets/images/p11-back.svg", "assets/images/p11-crest.svg", "assets/images/p11-fabric.svg"],
+    images: ["Imagenes/Camiseta Manchester United 2023.jpg"],
     description: "Camiseta réplica roja del Manchester United, modelo actual."
   },
   {
@@ -163,7 +163,7 @@ const PRODUCTS = [
     status: "out-of-stock",
     fewLeft: false,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p12-front.svg", "assets/images/p12-back.svg", "assets/images/p12-crest.svg", "assets/images/p12-fabric.svg"],
+    images: ["Imagenes/Camiseta Manchester City 2023.jpg"],
     description: "Réplica celeste del Manchester City, campeón de Europa."
   },
   {
@@ -176,7 +176,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["assets/images/p13-front.svg", "assets/images/p13-back.svg", "assets/images/p13-crest.svg", "assets/images/p13-fabric.svg"],
+    images: ["Imagenes/Brasil Titular 2023.jpg"],
     description: "Camiseta réplica amarilla de la Canarinha, un clásico del fútbol mundial."
   },
   {
@@ -189,7 +189,7 @@ const PRODUCTS = [
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["assets/images/p14-front.svg", "assets/images/p14-back.svg", "assets/images/p14-crest.svg", "assets/images/p14-fabric.svg"],
+    images: ["Imagenes/España Titular 2023.jpg", "Imagenes/España Titular 2023 2.jpg"],
     description: "Réplica de la Roja, campeona de la última Eurocopa."
   },
   {
@@ -202,9 +202,10 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p15-front.svg", "assets/images/p15-back.svg", "assets/images/p15-crest.svg", "assets/images/p15-fabric.svg"],
+    images: ["Imagenes/Italia titular 2026.jpg"],
     description: "Camiseta réplica azzurra de la selección italiana."
   },
+  /*
   {
     id: 16,
     name: "Francia Titular",
@@ -217,7 +218,7 @@ const PRODUCTS = [
     sizes: ["M", "L", "XL", "XXL"],
     images: ["assets/images/p16-front.svg", "assets/images/p16-back.svg", "assets/images/p16-crest.svg", "assets/images/p16-fabric.svg"],
     description: "Réplica de la selección francesa, bicampeona mundial."
-  },
+  },*/
   {
     id: 17,
     name: "Boca Juniors Titular",
@@ -228,7 +229,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["S", "M", "L", "XL"],
-    images: ["assets/images/p17-front.svg", "assets/images/p17-back.svg", "assets/images/p17-crest.svg", "assets/images/p17-fabric.svg"],
+    images: ["Imagenes/Boca Juniors Titular 2024.jpg", "Imagenes/Boca Juniors Titular 2024 2.jpg"],
     description: "Camiseta réplica azul y oro del Xeneize, modelo actual."
   },
   {
@@ -241,7 +242,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["assets/images/p18-front.svg", "assets/images/p18-back.svg", "assets/images/p18-crest.svg", "assets/images/p18-fabric.svg"],
+    images: ["Imagenes/River Plate Titular 2024.jpg", "Imagenes/River Plate Titular 2024 2.jpg"],
     description: "Réplica de la banda roja millonaria, modelo actual."
   },
   {
@@ -254,7 +255,7 @@ const PRODUCTS = [
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["assets/images/p19-front.svg", "assets/images/p19-back.svg", "assets/images/p19-crest.svg", "assets/images/p19-fabric.svg"],
+    images: ["Imagenes/Camiseta Titular Independiente 2024.jpg"],
     description: "Camiseta réplica roja del Rey de Copas."
   },
   {
@@ -267,7 +268,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p20-front.svg", "assets/images/p20-back.svg", "assets/images/p20-crest.svg", "assets/images/p20-fabric.svg"],
+    images: ["Imagenes/Racing Titular 2024.jpg"],
     description: "Réplica celeste y blanca de la Academia."
   },
   {
@@ -280,7 +281,7 @@ const PRODUCTS = [
     status: "out-of-stock",
     fewLeft: false,
     sizes: ["M", "L"],
-    images: ["assets/images/p21-front.svg", "assets/images/p21-back.svg", "assets/images/p21-crest.svg", "assets/images/p21-fabric.svg"],
+    images: ["Imagenes/San Lorenzo Titular 2024.jpg"],
     description: "Camiseta réplica azulgrana del Ciclón."
   },
   {
@@ -293,7 +294,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p22-front.svg", "assets/images/p22-back.svg", "assets/images/p22-crest.svg", "assets/images/p22-fabric.svg"],
+    images: ["Imagenes/AC Milan Titular 90.jpg"],
     description: "Edición retro réplica del Milan de los años 90, una era dorada del club."
   },
   {
@@ -301,12 +302,12 @@ const PRODUCTS = [
     name: "Real Madrid Retro 2000",
     category: "retro",
     team: "Real Madrid",
-    season: "2000",
+    season: "2007",
     price: 78000,
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["assets/images/p23-front.svg", "assets/images/p23-back.svg", "assets/images/p23-crest.svg", "assets/images/p23-fabric.svg"],
+    images: ["Imagenes/Real Madrid Titular 2007.jpg"],
     description: "Réplica retro del Real Madrid de la Novena Champions."
   },
   {
@@ -319,7 +320,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L"],
-    images: ["assets/images/p24-front.svg", "assets/images/p24-back.svg", "assets/images/p24-crest.svg", "assets/images/p24-fabric.svg"],
+    images: ["Imagenes/Barcelona Titular 2009.jpg"],
     description: "Modelo inspirado en el Barcelona del Dream Team de los años 90."
   },
 ];
@@ -336,7 +337,7 @@ const SHORTS_PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["assets/images/shorts-placeholder.svg"],
+    images: ["Imagenes/Short Argentino 2024.jpg"],
     description: "Short réplica a juego con la camiseta titular de Argentina."
   },
   {
@@ -349,9 +350,11 @@ const SHORTS_PRODUCTS = [
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L"],
-    images: ["assets/images/shorts-placeholder.svg"],
+    images: ["Imagenes/Short Boca Juniors 2024.jpg"],
     description: "Short réplica azul del Xeneize."
   },
+
+  /*
   {
     id: 103,
     name: "Short River Plate",
@@ -364,7 +367,7 @@ const SHORTS_PRODUCTS = [
     sizes: ["S", "M", "L"],
     images: ["assets/images/shorts-placeholder.svg"],
     description: "Short réplica blanco de River Plate."
-  },
+  },*/
 ];
 
 // Se unifican ambas listas en un solo catálogo de trabajo
