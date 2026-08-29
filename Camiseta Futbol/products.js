@@ -20,7 +20,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL"],
-    images: ["Imagenes/Argentina Titular 2006.jpg", "Imagenes/Camiseta Argentina Titular 2006 2.jpg"],
+    images: ["Imagenes/Argentina/Argentina Titular 2006.jpg", "Imagenes/Argentina/Camiseta Argentina Titular 2006 2.jpg"],
     description: "Camiseta réplica inspirada en la edición utilizada por la Selección Argentina durante el Mundial 2006."
   },
   {
@@ -33,7 +33,7 @@ const PRODUCTS = [
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["Imagenes/Argentina Suplente 1994.jpg", "Imagenes/Argentina Suplente 1994 2.jpg"],
+    images: ["Imagenes/Argentina/Argentina Suplente 1994.jpg", "Imagenes/Argentina/Argentina Suplente 1994 2.jpg"],
     description: "Modelo inspirado en la alternativa argentina de Estados Unidos '94. Edición retro réplica."
   },
   {
@@ -46,7 +46,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["S", "M", "L"],
-    images: ["Imagenes/Argentina Titular 1986.jpg"],
+    images: ["Imagenes/Argentina/Argentina Titular 1986.jpg", "Imagenes/Argentina/Argentina Titular 1986 2.jpg"],
     description: "Réplica de la camiseta con la que Argentina se consagró campeona del mundo en México '86."
   },
   {
@@ -59,7 +59,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: false,
     sizes: ["S", "M", "L", "XL", "XXL"],
-    images: ["Imagenes/Argentina Titular Actual.jpg"],
+    images: ["Imagenes/Argentina/Argentina Titular Actual.jpg"],
     description: "Camiseta réplica del modelo titular vigente de la Selección Argentina, con las tres estrellas."
   },
   {
@@ -72,7 +72,7 @@ const PRODUCTS = [
     status: "available",
     fewLeft: true,
     sizes: ["M", "L", "XL"],
-    images: ["Imagenes/Argentina Suplente Actual.jpg", "Imagenes/Argentina Suplente Actual 2.jpg"],
+    images: ["Imagenes/Argentina/Argentina Suplente Actual.jpg", "Imagenes/Argentina/Argentina Suplente Actual 2.jpg"],
     description: "Versión alternativa réplica del modelo actual de la Albiceleste."
   },
   {
@@ -85,7 +85,7 @@ const PRODUCTS = [
     status: "out-of-stock",
     fewLeft: false,
     sizes: ["S", "M", "L"],
-    images: ["Imagenes/Camiseta Argentina Titular 3 estrellas.jpg"],
+    images: ["Imagenes/Argentina/Camiseta Argentina Titular 3 estrellas.jpg"],
     description: "Edición especial réplica utilizada durante la conquista de Qatar 2022."
   },
   {
