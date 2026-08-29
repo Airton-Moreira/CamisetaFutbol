@@ -243,12 +243,17 @@ ul{ list-style:none; margin:0; padding:0; }
   border-radius: var(--radius);
   transition: transform .2s var(--ease), background .2s var(--ease), color .2s var(--ease);
 }
-.btn-primary{
-  background: var(--ink);
+.btn-primary {
+  display: inline-block; /* Requerido para que translateY funcione */
+  background-color: var(--ink); /* Usa background-color en vez de background */
   color: #fff;
+  transition: background-color 0.25s ease, transform 0.2s ease;
 }
-.btn-primary:hover{ background: var(--pitch); transform: translateY(-2px); }
 
+.btn-primary:hover {
+  background-color: var(--pitch);
+  transform: translateY(-2px);
+}
 .btn-whatsapp{
   width:100%;
   justify-content:center;
