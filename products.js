@@ -33,7 +33,7 @@ const PRODUCTS = [
     status: "on-order",
     fewLeft: false,
     sizes: ["M", "L", "XL"],
-    images: ["Imagenes/Argentina/Argentina Suplente 1994.jpg", "Imagenes/Argentina/Camiseta Argentina Suplente 1994 2.jpg"],
+    images: ["Imagenes/Argentina/Argentina Suplente 1994.jpg", "Imagenes/Argentina/Argentina Suplente 1994 2.jpg"],
     description: "Modelo inspirado en la alternativa argentina de Estados Unidos '94. Edición retro réplica."
   },
   {
